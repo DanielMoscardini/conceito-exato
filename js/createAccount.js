@@ -1,14 +1,21 @@
-let btnCriar = document.querySelector('#btnCriar');
+import ApiUser from "./api/connector.js";
+import User from "./model/user.js";
 
-btnCriar.addEventListener('click', (event) => {
+const api = new ApiUser();
+
+const form = document.querySelector('#frmAccount');
+const buttonCriar = document.querySelector('#btnCriar');
+
+
+buttonCriar.addEventListener('click', (event) => {
   event.preventDefault();
-  let frmAccount = document.querySelector('#frmAccount');
-  let formData = [];
-  formData.push(
-    frmAccount.nome.value,
-    frmAccount.email.value,
-    frmAccount.login.value,
-    frmAccount.senha.value
-    )
-  console.log(formData);
+  
+  const user = new User(
+    form.nome.value,
+    form.login.value,
+    form.senha.value,
+    form.email.value
+  )
+
+  console.log(api.registerUser(user));
 });
