@@ -1,0 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgb(97, 95, 95);
+  font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,94 @@
+.profile-page {
+  background: rgb(162, 11, 231);
+  text-align: right;
+  padding-right: 1rem;
+  padding-top: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main .available-courses {
+  margin-top: 3rem;
+  background: rgba(161, 11, 231, 0.568);
+  height: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.main .available-courses h1 {
+  margin: 0 auto;
+}
+
+.main .my-courses {
+  margin-top: 3rem;
+  background: rgba(161, 11, 231, 0.568);
+  height: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.main .my-courses h1 {
+  margin: 0 auto;
+}
+
+.main .metas {
+  margin-top: 3rem;
+  background: rgba(161, 11, 231, 0.568);
+  height: 6rem;
+  display: flex;
+  align-items: center;
+}
+
+.main .metas h1 {
+  margin: 0 auto;
+}
+
+.forgot-pwd {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+
+  margin-top: 5rem;
+}
+
+@media (min-width: 500px) {
+  .main .available-courses {
+    margin-top: 3rem;
+    background: rgba(161, 11, 231, 0.568);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    margin-inline: auto;
+  }
+
+  .main .my-courses {
+    margin-top: 3rem;
+    background: rgba(161, 11, 231, 0.568);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    margin-inline: auto;
+  }
+
+  .main .metas {
+    margin-top: 3rem;
+    background: rgba(161, 11, 231, 0.568);
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    margin-inline: auto;
+  }
+
+  .forgot-pwd {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+
+    margin-top: 5rem;
+  }
+}

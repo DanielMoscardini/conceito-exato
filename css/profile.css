@@ -1,0 +1,43 @@
+.profile {
+  border: 1px solid rgba(0, 0, 0, 0.432);
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 5rem;
+}
+
+.profile h3 {
+  background: rgba(128, 69, 120, 0.541);
+}
+
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  padding: 0.6rem;
+}
+
+.account h3 {
+  background: rgba(128, 69, 120, 0.541);
+}
+
+.account {
+  border: 1px solid rgba(0, 0, 0, 0.432);
+  display: flex;
+  flex-direction: column;
+  margin: 2rem 5rem;
+}
+
+.forgot-pwd {
+  margin-top: 2rem;
+  width: 250px;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .profile {
+    width: 200px;
+  }
+
+  .account {
+    width: 200px;
+  }
+}
